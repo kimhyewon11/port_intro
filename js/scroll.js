@@ -40,11 +40,11 @@ else if(scTop >= secStart[1] &&  scTop < secStart[2] ){
         });
     }
 }
-else if (scTop >= secStart[2] &&  scTop < 5000){
+else if (scTop >= secStart[2] &&  scTop < 4800){
     gnb[2].classList.add("on");
 
 }
-else if (scTop >= 5000){
+else if (scTop >= 4800){
     gnb[3].classList.add("on");
 }
 console.log(scTop)
