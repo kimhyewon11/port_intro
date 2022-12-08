@@ -47,7 +47,6 @@ else if (scTop >= secStart[2] &&  scTop < 4800){
 else if (scTop >= 4800){
     gnb[3].classList.add("on");
 }
-console.log(scTop)
 });
 
 
