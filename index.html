@@ -55,7 +55,7 @@
                         <div class="box">
                             <P class="tit">CSS</P>
                             <div class="skill_bar2 skill_bar"></div>
-                            <p> scss 를 이용해 애니메이션 등 세부적인 스타일 변경이 가능합니다.</p>
+                            <p> scss 를 이용해 간결하게 코드를 작성할 수 있으며 , 애니메이션 등 세부적인 스타일 변경이 가능합니다.</p>
                         </div>
                         <div class="box">
                             <P class="tit">Jquery / JS</P>
@@ -65,7 +65,7 @@
                         <div class="box">
                             <P class="tit">React</P>
                             <div class="skill_bar4 skill_bar"></div>
-                            <p>기초적인 문법을 사용할 수 있으며 ,현재 계속 배워가고 있습니다.</p>
+                            <p> 간단한 컴포넌트를 작성하고, state와 props 등 기본 적인 문법을 사용할 수 있으며 현재 계속 배워가고 있습니다.</p>
                         </div>
                     </div>
                 </div>
@@ -102,7 +102,7 @@
                                         <div class="wrap">
                                             <div class="compo"> 
                                                 <p id="highlight">Contact Menu </p>
-                                                <p>- 회원만 열람 가능</p>
+                                                <p>- 가입한 회원만 열람 가능</p>
                                                 <p>- 게시글 제목, 작성자로 검색</p>
                                                 <p>- 게시글 작성 , 수정, 삭제</p>
                                                 <p>- 게시글 파일 첨부</p>
@@ -162,7 +162,8 @@
                                 <div class="wrap">
                                     <div class="compo"> 
                                         <p id="highlight"> 관리자 Page </p>
-                                        <p > - 관리자 로그인 </p>
+                                        <p> - 관리자 로그인 </p>
+                                        <p id="highlight1"> * Id : admin / PW : 1234</p>
                                         <p>- 관리자 상품 등록</p>
                                         <p>- 관리자 매거진 항목 등록</p>
                                         <p id="highlight"> Store Menu</p>
@@ -216,6 +217,7 @@
                                                 <p id="highlight"> Login Page </p>
                                                 <p>- 회원 로그인 </p>
                                                 <p>- 관리자 로그인  </p>
+                                                <p id="highlight1"> * Id : admin1234 / PW : admin1234</p>
                                                 <p>- 관리자 상품 , 매장 , 뉴스 , 공지 등록  </p>
                                                 <p id="highlight"> Board Menu</p>
                                                 <p>- 게시글 Pagenation 기능 </p>
@@ -273,35 +275,7 @@
     <script src="js/textToggle.js"></script>
     <script src="js/countUp.js"></script>
     <script src="js/scroll.js"></script>
-    <script>
-        let spanwrap = document.querySelector(".spanwrap");
-        let down = document.querySelector(".down");
-        let up = document.querySelector(".up");
-
-
-        spanwrap.addEventListener("click",()=>{
-            down.classList.toggle("on")
-            up.classList.toggle("on")
-            document.querySelector(".myinfo").classList.toggle("on");
-        })
-
-
-
-
-
-
-
-        //글자 마우스 따라 움직임 
-        // let mouseTarget= document.querySelector(".cont1");
-
-        // let leaveTarget = document.querySelector(".textwrap");
-
-        // mouseTarget.addEventListener("mousemove",(e)=>{
-        //     leaveTarget.style.left = e.pageX + "px";
-        // })
-    
-    </script>
-    
+    <script src="js/cont5.js"></script>
 
 </body>
 </html>

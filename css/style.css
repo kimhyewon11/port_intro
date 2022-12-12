@@ -299,6 +299,10 @@ textarea {
   margin-bottom: 10px;
   font-weight: bold;
 }
+#container .cont3 .center .port .left .bot .bot_left .rowwrap .row .wrap .compo #highlight1 {
+  font-weight: bold;
+  font-style: italic;
+}
 #container .cont3 .center .port .left .bot .bot_left .rowwrap .row .wrap span {
   position: relative;
   top: 3px;
@@ -379,13 +383,13 @@ textarea {
   border-left: 1px solid #000;
 }
 #container .cont3 .center .port .right2 > img {
-  height: 722px;
+  height: 750px;
 }
 #container .cont3 .center .port .right3 {
   background-color: rgba(22, 57, 99, 0.2);
 }
 #container .cont3 .center .port .right3 > img {
-  height: 855px;
+  height: 910px;
 }
 #container .cont3 .center .port2 .left .bot .bot_left {
   border-right: none;

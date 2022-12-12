@@ -254,6 +254,10 @@
                                                 margin-bottom: 10px;
                                                 font-weight: bold;
                                             }
+                                            #highlight1 {
+                                                font-weight: bold;
+                                                font-style: italic;
+                                            }
                                         }
                                         span {
                                             position: relative;
@@ -344,13 +348,13 @@
                     border-right: none;
                     border-left:1px solid #000 ;
                     >img {
-                        height: 722px;
+                        height: 750px;
                      }
                  }
                 .right3 {
                     background-color: rgba(22,57,99,0.2);
                     >img {
-                        height: 855px;
+                        height: 910px;
                      }
                  }
             }
